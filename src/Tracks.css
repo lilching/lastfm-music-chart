@@ -1,0 +1,74 @@
+#tracks-div{
+    padding: 20px;
+    margin: 0px 150px 0px 150px;
+    width: 50%;
+    border-radius: 5px;
+    background-color: white;
+    color: darkred;
+    margin-top: 30px;
+}
+
+#ranking{
+    font-size: 35px;
+}
+
+#track-name{
+    font-size: 35px;
+    font-weight: 600;
+}
+
+#artist{
+    font-size: 35px;
+    font-weight: 300;
+}
+
+#playcount{
+    font-size: 30px;
+    font-weight: 500;
+}
+
+/* tablet  */
+@media (max-width: 720px) {
+    #tracks-div{
+        width: 80%;
+    }
+
+    #ranking{
+        font-size: 28px;
+    }
+    
+    #track-name{
+        font-size: 28px;
+    }
+
+    #artist{
+        font-size: 28px;
+    }
+
+    #playcount{
+        font-size: 20px;
+    }
+}
+
+/* phone screen */
+@media (max-width: 640px) {
+    
+    #ranking{
+        font-size: 20px;
+    }
+    
+    #track-name{
+        font-size: 20px;
+    }
+
+    #artist{
+        font-size: 20px;
+    }
+
+    #playcount{
+        font-size: 20px;
+    }
+}
+
+
+

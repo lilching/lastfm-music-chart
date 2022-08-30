@@ -1,0 +1,47 @@
+#artist-div{
+    padding: 20px;
+    margin: 0px 150px 0px 150px;
+    width: 50%;
+    border-radius: 5px;
+    background-color: white;
+    color: darkred;
+    margin-top: 30px;
+}
+
+#ranking{
+    font-size: 45px;
+}
+
+#artist-name{
+    font-size: 45px;
+    font-weight: 600;
+}
+
+#playcount{
+    font-size: 30px;
+}
+
+@media (max-width: 720px) {
+    #artist-div{
+        width: 80%;
+    }
+}
+
+/* phone screen */
+@media (max-width: 640px) {
+
+    
+    #ranking{
+        font-size: 35px;
+    }
+    
+    #artist-name{
+        font-size: 35px;
+        font-weight: 600;
+    }
+
+    #playcount{
+        font-size: 20px;
+    }
+}
+
